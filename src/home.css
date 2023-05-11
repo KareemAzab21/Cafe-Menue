@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+nav{
+  /* position: fixed; */
+  background: #1b1b1b;
+  /* position:fixed; */
+  width: 100%;
+  padding: 0px 0;
+  z-index: 10;
+}
+.menu{
+ 
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 
+}
+
+
+.logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.icon
+{
+    width: 90px;
+    height: 75px;
+    margin-left: 20px;
+    margin-top:20px;
+    
+}
+ ul.nav{
+  display:flex;
+  align-items: center;
+
+}
+ ul.nav li{
+  list-style: none;
+  margin-left: 7px;
+}
+ul.nav li:first-child{
+  margin-left: 0px;
+}
+ul.nav li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 8px 15px;
+  border-radius: 7px;
+  
+}
+.menu ul.nav li a:hover{
+  background: #fff;
+  color: black;
+}
+
+.img{
+    background: url('./images/cafe.jpg')no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .social{
+    margin-left: 50px;;
+    width: 80px;
+    height: 80px;
+} 
+.bot{
+    justify-content: center;
+    margin-top: 4cm;
+    display:flex;
+}
+.last{
+    color: #000;
+    font-size: 55px;
+    font-weight: 600;
+}
+h2{
+    font-size: 55px;
+    font-weight: 600;
+
+}
+p{
+    font-size: 25px;
+    margin-bottom:20px;
+ 
+}
+h3{
+    font-size: 35px; 
+    font-weight: 600
+}
+.category{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+#image_drinks{
+  background: url('./images/drinks.jpg')no-repeat;
+  width: 40%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 2cm;
+
+}
+#image_breakfast{
+  background: url('./images/breakfast.jpg')no-repeat;
+  width: 50%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 2cm;
+
+}
+#image_lunch{
+  background: url('./images/lunch.jpg')no-repeat;
+  width:40%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 2cm;
+
+}
+#image_dessert{
+  background: url('./images/dessert.jpg')no-repeat;
+  width:40%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 2cm;
+
+}
+.items{
+  font-family: Cursive;
+  font-size: 20px;
+  width: 200px;
+
+
+}
+.description{
+font-size: 20px;
+font-family:Fantasy;
+
+
+}
+#breakfast_description{
+  width: 400px;
+}
+#breakfast_item{
+  width: 100px;
+  height: 600px;
+}
+#breakfast_price{
+  height: 700px;
+}
+.price{
+  font-size: 20px;
+
+}
+
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px #1b1b1b;; 
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #1b1b1b;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+
